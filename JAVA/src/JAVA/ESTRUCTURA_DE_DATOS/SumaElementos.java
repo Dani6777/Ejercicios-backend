@@ -1,6 +1,8 @@
-public class SumaElementos {
+package JAVA.ESTRUCTURA_DE_DATOS;
 
-    public static void main(String[] args) {
+public class SumaElementos {
+	
+	public static void main(String[] args) {
 
         int[] numbers = { 1, 2, 3, 4, 5 };
         int suma = 0;
@@ -10,4 +12,5 @@ public class SumaElementos {
         }
         System.out.println("La suma de los elementos es: " + suma);
     }
+
 }

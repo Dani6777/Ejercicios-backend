@@ -1,6 +1,8 @@
-public class Arreglos {
+package JAVA.ESTRUCTURA_DE_DATOS;
 
-    public static void main(String[] args) {
+public class Arreglos {
+	
+	public static void main(String[] args) {
 
         int[] numbers = { 2, 3, 4, 5 };
 
@@ -8,4 +10,5 @@ public class Arreglos {
             System.out.println(numbers[i]);
         }
     }
+
 }

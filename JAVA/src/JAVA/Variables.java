@@ -1,6 +1,7 @@
-public class Variables {
+package JAVA;
 
-    // Declaración e inicialización de una variable de tipo String
+public class Variables {
+	 // Declaración e inicialización de una variable de tipo String
     String myVariable = "Hola mundo";
 
     // Método principal
@@ -31,4 +32,5 @@ public class Variables {
             System.out.println("resultado: " + resultado);
         }
     }
+
 }

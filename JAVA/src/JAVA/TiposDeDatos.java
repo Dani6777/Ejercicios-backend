@@ -1,4 +1,6 @@
-public class TipoDeDatos {
+package JAVA;
+
+public class TiposDeDatos {
 
     public class Primitivos {
 

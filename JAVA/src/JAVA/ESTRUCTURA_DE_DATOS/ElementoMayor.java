@@ -1,5 +1,7 @@
-public class ElementoMayor {
+package JAVA.ESTRUCTURA_DE_DATOS;
 
+public class ElementoMayor {
+	
     public static void main(String[] args) {
 
         int[] numbers = { 12, 7, 23, 14, 9 };

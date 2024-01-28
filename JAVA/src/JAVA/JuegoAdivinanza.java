@@ -1,8 +1,17 @@
-import javax.swing.*;
-import java.awt.*;
+package JAVA;
+
+
+import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
 
 public class JuegoAdivinanza extends JFrame {
     private int numeroAdivinanza;
@@ -75,3 +84,4 @@ public class JuegoAdivinanza extends JFrame {
         });
     }
 }
+

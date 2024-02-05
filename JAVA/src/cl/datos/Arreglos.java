@@ -1,4 +1,4 @@
-package JAVA.ESTRUCTURA_DE_DATOS;
+package cl.datos;
 
 public class Arreglos {
 	

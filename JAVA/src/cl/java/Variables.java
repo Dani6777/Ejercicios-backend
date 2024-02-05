@@ -1,4 +1,4 @@
-package JAVA;
+package cl.java;
 
 public class Variables {
 	 // Declaración e inicialización de una variable de tipo String

@@ -1,8 +1,8 @@
-package cl.datos;
+package cl.ejercicios;
 
 public class SumaElementos {
-	
-	public static void main(String[] args) {
+
+    public static void main(String[] args) {
 
         int[] numbers = { 1, 2, 3, 4, 5 };
         int suma = 0;

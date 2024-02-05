@@ -1,7 +1,7 @@
-package cl.datos;
+package cl.ejercicios;
 
 public class ElementoMayor {
-	
+
     public static void main(String[] args) {
 
         int[] numbers = { 12, 7, 23, 14, 9 };

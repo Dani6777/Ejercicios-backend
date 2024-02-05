@@ -1,5 +1,4 @@
-package cl.java;
-
+package cl.ejercicios;
 
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
@@ -84,4 +83,3 @@ public class JuegoAdivinanza extends JFrame {
         });
     }
 }
-

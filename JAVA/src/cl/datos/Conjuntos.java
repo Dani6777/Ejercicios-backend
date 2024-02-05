@@ -11,7 +11,6 @@ public class Conjuntos {
 		
 		//no se puede duplicar y no se almacenan en un orden
 		HashSet<String> nombres = new HashSet<String>();
-		
 		nombres.add("Daniel");
 		nombres.add("David");
 		
@@ -20,7 +19,6 @@ public class Conjuntos {
 		conjuntoTree.add("Daniel");
 		conjuntoTree.add("Josefa");
 		conjuntoTree.add("Andres");
-		
 		for(String nombre : conjuntoTree) {
 			System.out.println("valor "+ nombre);
 		}

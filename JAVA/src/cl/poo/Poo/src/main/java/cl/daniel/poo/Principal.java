@@ -23,13 +23,14 @@ public class Principal {
         
         CuentaBancaria dm = new CuentaBancaria();
         
-        dm.cmu = "3234k4j3lf";
-        dm.alias = "miCuenta";
+        dm.setAlias("Nuevo Alias");
         dm.mostrarDatos();
         
-        System.out.println(dm.obtenerSaldo());
+        System.out.println(dm.getSaldo());
         dm.depositar(300);
-        System.out.println(dm.obtenerSaldo());
-        
+        System.out.println(dm.getSaldo());
+        System.out.println(dm.saldoDisponible(200));
+         System.out.println(dm.getSaldo());
+    
     }
 }

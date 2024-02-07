@@ -4,27 +4,67 @@ package cl.daniel.poo;
 
 public class CuentaBancaria {
     
-    String cmu;
+    private String cmu;
     
-    String alias;
+     private String alias;
     
-    double saldo;
+    private double saldo;
+    
+    private String moneda;
+    
+    private String tipo;
     
     
-    void mostrarDatos(){
+    public void mostrarDatos(){
+       
         System.out.println(cmu + " "+ alias + " "+ saldo); 
     }
     
     
-   double obtenerSaldo(){
+   public double getSaldo(){
        return saldo;
     }
    
-    void depositar(double monto){
+   public String getALias(){
+   return alias;
+     }
+   
+   public void setAlias(String nuevoALias){
+       if(nuevoALias != null){
+       alias = nuevoALias;
+       }
+   }
+   
+   public void setMoneda(String moneda){
+       if(moneda != null){
+       this.moneda = moneda;
+       }
+   }
+   
+   public void setTipo(String tipo){
+       if(tipo != null){
+           this.tipo = tipo;
+       }
+   }
+   
+   
+   
+   public void depositar(double monto){
         if(monto > 0){
             saldo += monto;
         }else{
              System.out.println("ingrese un monto valido");
         }  
     }
+    
+    public boolean saldoDisponible(double monto){ 
+         return saldo >= monto;
+    }
+     
+     private void extraer(double monto){
+         
+         if(saldoDisponible(monto)){
+         saldo -=monto;
+         }
+     } 
 }

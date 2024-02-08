@@ -21,16 +21,8 @@ public class Principal {
         //System.out.println(mercedes);
         
         
-        CuentaBancaria dm = new CuentaBancaria();
-        
-        dm.setAlias("Nuevo Alias");
+        CuentaBancaria dm = new CuentaBancaria("miCuenta","peso","corriente");
         dm.mostrarDatos();
-        
-        System.out.println(dm.getSaldo());
-        dm.depositar(300);
-        System.out.println(dm.getSaldo());
-        System.out.println(dm.saldoDisponible(200));
-         System.out.println(dm.getSaldo());
     
     }
 }

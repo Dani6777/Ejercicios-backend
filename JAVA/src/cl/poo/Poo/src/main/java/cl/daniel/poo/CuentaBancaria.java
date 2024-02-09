@@ -81,4 +81,12 @@ public class CuentaBancaria {
     public CuentaBancaria(String moneda, String tipoCuenta) {
         this("alias por defecto", moneda, tipoCuenta);
     }
+
+    //metodo toString
+    @Override
+    public String toString() {
+        return "CuentaBancaria{" + "numeroCuenta=" + numeroCuenta + ", alias=" + alias + ", saldo=" + saldo + ", moneda=" + moneda + ", tipoCuenta=" + tipoCuenta + '}';
+    }
+    
+    
 }

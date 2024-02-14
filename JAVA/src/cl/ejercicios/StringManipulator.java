@@ -1,27 +1,29 @@
 package cl.ejercicios;
 
-// TODO: Auto-generated Javadoc
-/**
- * The Class StringManipulator.
- */
 public class StringManipulator {
-	
-	 
-	/**
-	 * Trim and concat.
-	 *
-	 * @param a the a
-	 * @param b the b
-	 * @return the string
-	 */
+
 	public String trimAndConcat(String a, String b) {
-		
-		
-		String cadena = a.trim().concat(b.trim());
-		
-		return cadena;
-		
+		return a.trim() + b.trim();
 	}
-	
+
+	public Integer getIndexOrNull(String a, char b) {
+		if (a.indexOf(b) == -1) {
+			return null;
+		} else {
+			return a.indexOf(b);
+		}
+	}
+
+	public Integer getIndexOrNull(String a, String b) {
+		if (a.indexOf(b) == -1) {
+			return null;
+		} else {
+			return a.indexOf(b);
+		}
+	}
+
+	public String concatSubstring(String a, int b, int c, String d) {
+		return a.substring(b, c) + d;
+	}
 
 }

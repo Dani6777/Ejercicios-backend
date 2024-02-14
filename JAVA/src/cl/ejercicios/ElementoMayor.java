@@ -1,7 +1,16 @@
 package cl.ejercicios;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class ElementoMayor.
+ */
 public class ElementoMayor {
 
+    /**
+     * The main method.
+     *
+     * @param args the arguments
+     */
     public static void main(String[] args) {
 
         int[] numbers = { 12, 7, 23, 14, 9 };

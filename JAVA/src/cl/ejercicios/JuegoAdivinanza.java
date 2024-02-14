@@ -12,11 +12,24 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class JuegoAdivinanza.
+ */
 public class JuegoAdivinanza extends JFrame {
+    
+    /** The numero adivinanza. */
     private int numeroAdivinanza;
+    
+    /** The campo texto. */
     private JTextField campoTexto;
+    
+    /** The area texto. */
     private JTextArea areaTexto;
 
+    /**
+     * Instantiates a new juego adivinanza.
+     */
     public JuegoAdivinanza() {
         super("Juego de Adivinanza");
 
@@ -49,6 +62,9 @@ public class JuegoAdivinanza extends JFrame {
         setVisible(true);
     }
 
+    /**
+     * Adivinar numero.
+     */
     private void adivinarNumero() {
         try {
             int intento = Integer.parseInt(campoTexto.getText());
@@ -68,12 +84,20 @@ public class JuegoAdivinanza extends JFrame {
         campoTexto.setText("");
     }
 
+    /**
+     * Reiniciar juego.
+     */
     private void reiniciarJuego() {
         Random random = new Random();
         numeroAdivinanza = random.nextInt(100) + 1;
         areaTexto.append("Nuevo juego iniciado. Adivina un nuevo número.\n");
     }
 
+    /**
+     * The main method.
+     *
+     * @param args the arguments
+     */
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             @Override

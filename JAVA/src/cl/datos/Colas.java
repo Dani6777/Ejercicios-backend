@@ -2,8 +2,17 @@ package cl.datos;
 
 import java.util.LinkedList;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Colas.
+ */
 public class Colas {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 			
 		//FIFO

@@ -1,9 +1,20 @@
 package cl.java;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Variables.
+ */
 public class Variables {
-	 // Declaración e inicialización de una variable de tipo String
+	 
+ 	/** The my variable. */
+ 	// Declaración e inicialización de una variable de tipo String
     String myVariable = "Hola mundo";
 
+    /**
+     * The main method.
+     *
+     * @param args the arguments
+     */
     // Método principal
     public static void main(String[] args) {
 
@@ -12,9 +23,15 @@ public class Variables {
         sumaInstance.sumaMain();
     }
 
+    /**
+     * The Class Suma.
+     */
     // Clase anidada llamada Suma
     public class Suma {
 
+        /**
+         * Suma main.
+         */
         // El método principal de la clase Suma
         public void sumaMain() {
 

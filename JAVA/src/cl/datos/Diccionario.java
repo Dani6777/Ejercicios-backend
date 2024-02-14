@@ -6,8 +6,17 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Diccionario.
+ */
 public class Diccionario {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		
 		Map<Integer, String> diccionarioHash = new HashMap<>();

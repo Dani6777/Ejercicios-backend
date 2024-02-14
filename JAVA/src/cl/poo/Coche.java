@@ -1,15 +1,27 @@
 package cl.poo;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Coche.
+ */
 public class Coche {
 	
 	//atributos
 	
+	/** The color. */
 	String color;
 	
+	/** The marca. */
 	String marca;
 	
+	/** The km. */
 	int km;
 	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		
 		//se crea un objeto con una instancia de la clase Coche

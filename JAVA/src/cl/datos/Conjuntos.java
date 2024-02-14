@@ -5,8 +5,17 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Conjuntos.
+ */
 public class Conjuntos {
 
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 */
 	public static void main(String[] args) {
 		
 		//no se puede duplicar y no se almacenan en un orden

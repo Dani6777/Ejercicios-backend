@@ -2,9 +2,18 @@ package cl.java;
 
 import javax.swing.JOptionPane;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Condicionales.
+ */
 public class Condicionales {
 	
-	 public static void main(String[] args) {
+	 /**
+ 	 * The main method.
+ 	 *
+ 	 * @param args the arguments
+ 	 */
+ 	public static void main(String[] args) {
 
 	        int numero;
 

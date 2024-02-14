@@ -1,8 +1,17 @@
 package cl.java;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Funciones.
+ */
 public class Funciones {
 	
-	 public static void main(String[] args) {
+	 /**
+ 	 * The main method.
+ 	 *
+ 	 * @param args the arguments
+ 	 */
+ 	public static void main(String[] args) {
 
 	        int resultado = sumar(10, 11);
 	        int resultado1 = calcularFactorial(5);
@@ -11,13 +20,26 @@ public class Funciones {
 	        System.out.println(esPrimo(13));
 	    }
 
-	    public static int sumar(int x, int y) {
+	    /**
+    	 * Sumar.
+    	 *
+    	 * @param x the x
+    	 * @param y the y
+    	 * @return the int
+    	 */
+    	public static int sumar(int x, int y) {
 
 	        int suma = x + y;
 	        return suma;
 	    }
 
-	    public static int calcularFactorial(int n) {
+	    /**
+    	 * Calcular factorial.
+    	 *
+    	 * @param n the n
+    	 * @return the int
+    	 */
+    	public static int calcularFactorial(int n) {
 
 	        if (n == 0 || n == 1) {
 	            return 1;
@@ -30,7 +52,13 @@ public class Funciones {
 	        }
 	    }
 
-	    public static boolean esPrimo(int n) {
+	    /**
+    	 * Es primo.
+    	 *
+    	 * @param n the n
+    	 * @return true, if successful
+    	 */
+    	public static boolean esPrimo(int n) {
 
 	        if (n <= 1) {
 	            System.out.println("no es primo");

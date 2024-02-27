@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f9b6216-ea49-4aa8-b023-53a42e8a8c7a" name="Changes" comment="FIX STRUCTURED PROJECT">
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/datos/Arreglos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/datos/Colas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/datos/Conjuntos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/datos/Diccionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/datos/Listas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/datos/Pilas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/AlgoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/AlgoAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/ElementoMayor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/FizzBuzz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/FizzBuzzTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/HashMatique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/JuegoAdivinanza$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/JuegoAdivinanza$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/JuegoAdivinanza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/Pitagoras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/PuzzleJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/RotacionDerecha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/StringManipulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/StringManipulatorTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/SumaElementos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/ejercicios/pitagorasTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/Casting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/Condicionales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/Funciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/HashMapTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/ImportDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/ImportDemoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/TestSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/TiposDeDatos$Decimales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/TiposDeDatos$Objeto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/TiposDeDatos$Otros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/TiposDeDatos$Primitivos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/TiposDeDatos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/Variables$Suma.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/java/Variables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/poo/Coche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/poo/Operacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/poo/Poo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/poo/Poo/src/main/java/cl/daniel/poo/Auto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/poo/Poo/src/main/java/cl/daniel/poo/CuentaBancaria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/poo/Poo/src/main/java/cl/daniel/poo/JavaRobot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/cl/poo/Poo/src/main/java/cl/daniel/poo/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/datos/Arreglos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/datos/Colas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/datos/Conjuntos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/datos/Diccionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/datos/Listas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/datos/Pilas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/AlgoApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/AlgoAppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/ElementoMayor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/FizzBuzzTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/HashMatique.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/JuegoAdivinanza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/Pitagoras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/PuzzleJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/RotacionDerecha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/StringManipulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/StringManipulatorTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/SumaElementos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/ejercicios/pitagorasTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/java/Casting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/java/Condicionales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/java/Funciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/java/HashMapTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/java/ImportDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/java/ImportDemoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/java/TestSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/java/TiposDeDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/java/Variables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/poo/Coche.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/poo/Operacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/poo/Poo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/poo/Poo/src/main/java/cl/daniel/poo/Auto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/poo/Poo/src/main/java/cl/daniel/poo/CuentaBancaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/poo/Poo/src/main/java/cl/daniel/poo/JavaRobot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA/src/cl/poo/Poo/src/main/java/cl/daniel/poo/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.sarif.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/sence/daniel/datos/Arreglos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/sence/daniel/datos/Colas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/sence/daniel/datos/Conjuntos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/sence/daniel/datos/Diccionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/sence/daniel/datos/Listas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/sence/daniel/datos/Pilas.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2cx6JVZvU6PJudigSA3Bleem486" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Arreglos.executor": "Run",
+    "Application.Colas.executor": "Run",
+    "Application.Condicionales.executor": "Run",
+    "Application.Conjuntos.executor": "Run",
+    "Application.Diccionario.executor": "Run",
+    "Application.FizzBuzzTest.executor": "Run",
+    "Application.JuegoAdivinanza.executor": "Run",
+    "Application.Listas.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PitagorasTest.executor": "Run",
+    "Application.PuzzleJava.executor": "Run",
+    "Application.StringManipulatorTest.executor": "Run",
+    "Application.Variables.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Desarrollo",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.general"
+  }
+}]]></component>
+  <component name="QodanaCIConfigService">
+    <option name="ciType" value="GITHUB" />
+    <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\danie\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="c971e26f-730f-4d7e-a9eb-219b150b7961" reportId="Jav/qodana/2024-02-27" />
+      <ReportDescription path="C:\Users\danie\Documents\Ejercicios-backend\Jav\qodana.sarif.json" reportGuid="c971e26f-730f-4d7e-a9eb-219b150b7961" reportId="Jav/qodana/2024-02-27" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Condicionales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cl.sence.daniel.ejercicios.Condicionales" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cl.sence.daniel.ejercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cl.sence.daniel.Main" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cl.sence.daniel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PuzzleJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cl.sence.daniel.ejercicios.PuzzleJava" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cl.sence.daniel.ejercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringManipulatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringManipulatorTest" />
+      <module name="Jav" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cl.sence.daniel.datos.Variables" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cl.sence.daniel.datos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Variables" />
+        <item itemvalue="Application.Condicionales" />
+        <item itemvalue="Application.StringManipulatorTest" />
+        <item itemvalue="Application.PuzzleJava" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f9b6216-ea49-4aa8-b023-53a42e8a8c7a" name="Changes" comment="" />
+      <created>1709040812278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709040812278</updated>
+    </task>
+    <task id="LOCAL-00001" summary="FIX STRUCTURED PROJECT">
+      <option name="closed" value="true" />
+      <created>1709043113447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709043113447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/Desarrollo" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Desarrollo" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FIX STRUCTURED PROJECT" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX STRUCTURED PROJECT" />
+  </component>
+</project>

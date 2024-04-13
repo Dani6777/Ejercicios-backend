@@ -2,8 +2,6 @@ package cl.sence.daniel.aiep;
 
 public class Calculadora {
 
-
-
     public  static void main(String[] args) {
         System.out.println("Suma: " + sumar(5, 3));
         System.out.println("Resta: " + restar(5, 3));

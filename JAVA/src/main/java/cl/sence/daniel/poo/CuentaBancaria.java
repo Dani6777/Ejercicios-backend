@@ -1,6 +1,7 @@
 package cl.sence.daniel.poo;
 
 public class CuentaBancaria {
+
     private String numeroCuenta;
     private String alias;
     private double saldo;
@@ -60,6 +61,8 @@ public class CuentaBancaria {
     private void extraer(double monto) {
         if (saldoDisponible(monto)) {
             saldo -= monto;
+        }else {
+            throw new IllegalArgumentException("Saldo insuficiente");
         }
     }
 

@@ -5,11 +5,8 @@ public class AlgoApp {
     public int imprimir1_255() {
         for (int i = 1; i <= 255; i++) {
             System.out.println(i);
-        }
-        return 0;
-    }
-
-    public int imprimirImpares1_255() {
+        }return 0;
+    }public int imprimirImpares1_255() {
         for (int i = 1; i <= 255; i++) {
             if (i % 2 != 0) {
                 System.out.println(i);

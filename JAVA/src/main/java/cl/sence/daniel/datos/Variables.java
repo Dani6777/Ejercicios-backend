@@ -1,48 +1,120 @@
 package cl.sence.daniel.datos;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class Variables {
 
-    /** The my variable. */
-    // Declaración e inicialización de una variable de tipo String
-    String myVariable = "Hola mundo";
+    private static final Logger logger = Logger.getLogger(Variables.class.getName());
 
-    /**
-     * The main method.
-     *
-     * @param args the arguments
+    /*
+     * TIPOS DE VARIABLES
+     * Variables de instancia: Son variables que pertenecen a una instancia de una clase.
+     * Variables de clase: Son variables que pertenecen a la clase y no a una instancia de la clase.
+     * Variables locales: Son variables declaradas dentro de un método, constructor o bloque.
+     * Variables de parámetro: Son variables que se pasan a un método.
+     * Variables primitivas: Son variables que almacenan valores primitivos.
+     * Variables de referencia: Son variables que almacenan referencias a objetos.
      */
-    // Método principal
-    public static void main(String[] args) {
 
-        // Crear una instancia de la clase Suma y llamar a su método main
-        Suma sumaInstance = new Variables().new Suma();
-        sumaInstance.sumaMain();
+    /*
+    TIPOS DE DATOS ENTEROS:
+    + byte: 8 bits, rango de -128 a 127
+    + short: 16 bits, rango de -32,768 a 32,767
+    + int: 32 bits, rango de -2,147,483,648 a 2,147,483,647
+    + long: 64 bits, rango de -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
+     */
+    static int number = 10; // Variable int
+    static float decimal = 10.5f; // Variable float
+    static double bigDecimal = 10.5; // Variable double
+    static long bigNumber = 1000000000L; // Variable long
+
+    /*
+    TIPOS DE DATOS DE CARÁCTER
+    + char: 16 bits, rango de 0 a 65,535
+     */
+    char character = 'A'; // Variable char
+
+    /*
+    TIPOS DE DATOS BOOLEANOS
+     */
+    boolean flag = true; // Variable boolean
+    boolean flag2 = false; // Variable boolean
+
+    /*
+    TIPOS DE DATOS DE CADENA
+     */
+    String name = "Daniel"; // Variable String
+    String lastName = "Soto"; // Variable String
+
+    /** Variable constante. */
+    public static final int CONSTANT_VARIABLE = 100;
+
+    /** Variable de instancia. */
+    private String instanceVariable;
+
+    /** Variable de clase (estática). */
+    private static String classVariable;
+
+    /** Variable local. */
+    public void demonstrateLocalVariable() {
+        int localVariable = 10; // Variable local
+        if (logger.isLoggable(Level.INFO)) {
+            logger.info("Variable local: " + localVariable);
+        }
     }
 
-    /**
-     * The Class Suma.
-     */
-    // Clase anidada llamada Suma
-    public class Suma {
+    /** Constructor para inicializar la variable de instancia. */
+    public Variables(String instanceVariable) {
+        this.instanceVariable = instanceVariable;
+    }
 
-        /**
-         * Suma main.
-         */
-        // El método principal de la clase Suma
-        public void sumaMain() {
+    /** Obtiene la variable de instancia. */
+    public String getInstanceVariable() {
+        return instanceVariable;
+    }
 
-            // Declaración e inicialización de dos variables de tipo entero
-            int num1 = 5;
-            int num2 = 2;
+    /** Establece la variable de instancia. */
+    public void setInstanceVariable(String instanceVariable) {
+        this.instanceVariable = instanceVariable;
+    }
 
-            // Declaración de una variable para almacenar el resultado de la suma
-            int resultado = 0;
+    /** Obtiene la variable de clase. */
+    public static String getClassVariable() {
+        return classVariable;
+    }
 
-            // Operación de suma
-            resultado = num1 + num2;
+    /** Establece la variable de clase. */
+    public static void setClassVariable(String classVariable) {
+        Variables.classVariable = classVariable;
+    }
 
-            // Imprimir el resultado
-            System.out.println("resultado: " + resultado);
+    public static void main(String[] args) {
+        if (logger.isLoggable(Level.INFO)) {
+            logger.info("Número: " + number);
+            logger.info("Decimal: " + decimal);
+            logger.info("Gran Decimal: " + bigDecimal);
+            logger.info("Gran Número: " + bigNumber);
+        }
+
+        // Demostrando variable local
+        Variables funny = new Variables("Valor de la Variable de Instancia");
+        funny.demonstrateLocalVariable();
+
+        // Accediendo a la variable de instancia
+        if (logger.isLoggable(Level.INFO)) {
+            logger.info("Variable de instancia: " + funny.getInstanceVariable());
+        }
+
+        // Estableciendo y obteniendo la variable de clase
+        Variables.setClassVariable("Valor de la Variable de Clase");
+        if (logger.isLoggable(Level.INFO)) {
+            logger.info("Variable de clase: " + Variables.getClassVariable());
+        }
+
+        // Accediendo a la variable constante
+        if (logger.isLoggable(Level.INFO)) {
+            logger.info("Variable constante: " + Variables.CONSTANT_VARIABLE);
         }
     }
 }

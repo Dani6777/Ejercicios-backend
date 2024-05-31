@@ -2,17 +2,16 @@ package cl.sence.daniel.ejercicios;
 
 public class AlgoApp {
     // imprimir 1 - 255
-    public int imprimir1_255() {
+    public void imprimir1_255() {
         for (int i = 1; i <= 255; i++) {
             System.out.println(i);
-        }return 0;
-    }public int imprimirImpares1_255() {
+        }
+    }public void imprimirImpares1_255() {
         for (int i = 1; i <= 255; i++) {
             if (i % 2 != 0) {
                 System.out.println(i);
             }
         }
-        return 0;
     }
 
     public int sumar() {
@@ -27,32 +26,29 @@ public class AlgoApp {
 
     }
 
-    public int recorrerArreglo(int[] arreglo) {
+    public void recorrerArreglo(int[] arreglo) {
         for (int i = 0; i < arreglo.length; i++) {
             System.out.println(arreglo[i]);
         }
-        return 0;
     }
 
-    public int encontrarMax(int[] arreglo) {
+    public void encontrarMax(int[] arreglo) {
         int max = arreglo[0];
         for (int i = 0; i < arreglo.length; i++) {
             if (arreglo[i] > max) {
                 max = arreglo[i];
             }
         }
-        return max;
     }
 
-    public int promedio(int[] arreglo) {
+    public void promedio(int[] arreglo) {
         int suma = 0;
         for (int i = 0; i < arreglo.length; i++) {
             suma += arreglo[i];
         }
-        return suma / arreglo.length;
     }
 
-    public int arregloImpares() {
+    public void arregloImpares() {
         int[] arreglo = new int[128];
         int j = 0;
         for (int i = 1; i <= 255; i++) {
@@ -61,7 +57,6 @@ public class AlgoApp {
                 j++;
             }
         }
-        return 0;
     }
 
     public int mayorQueY(int[] arreglo, int y) {

@@ -1,4 +1,3 @@
-
 nombre = 'Daniel'
 edad = 23
 is_happy = True
@@ -15,4 +14,3 @@ print(bienvenida2)
 #se pregunta si el string ola se encuentra en la variable bienvenida2, muestra un True o False
 print('ola' in bienvenida2)
 print('ola' not in bienvenida2)
-

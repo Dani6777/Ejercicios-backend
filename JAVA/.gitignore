@@ -1,39 +1,36 @@
-# Ignorar directorios target, excepto el archivo maven-wrapper.jar
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-# Ignorar directorios target dentro de src/main y src/test
-**/src/main/**/target/
-**/src/test/**/target/
-
-### IntelliJ IDEA ###
-.idea/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings/
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# macOS system files
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.DocumentRevisions-V100
+.TemporaryItems
+.Trashes
+.fseventsd
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Archivos generados por Qodana
-.qoadana.yaml
-qodana.sarif.json
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+out/
+target/
+*.ipr
